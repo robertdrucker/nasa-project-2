@@ -1,4 +1,5 @@
-const API_URL = 'v1';
+const API_URL = "http://localhost:8000/v1"; // use only with development
+// const API_URL = 'v1';  use only with production
 
 // Load planets and return as JSON.
 async function httpGetPlanets() {
